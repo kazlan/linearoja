@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "bloggie",
-  "homepage": "http://linea.xyz",
-  "twitter": "",
-  "repository": "",
+  "name": "LaLineaRoja",
+  "homepage": "https://www.lalinearoja.xyz",
+  "twitter": "perseoh",
+  "repository": "https://github.com/kazlan/linearoja",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",
