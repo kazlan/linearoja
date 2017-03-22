@@ -2,6 +2,8 @@ import path from "path"
 
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
+import CopyWebpackPlugin from "copy-webpack-plugin"
+
 import { phenomicLoader } from "phenomic"
 import PhenomicLoaderFeedWebpackPlugin
   from "phenomic/lib/loader-feed-webpack-plugin"
@@ -217,6 +219,9 @@ export default (config = {}) => {
     postcss: postcssPlugins,
 
     plugins: [
+       new CopyWebpackPlugin([
+        {from: 'admin', to: 'admin'},
+      ]),
       // webpack 2
       /*
       // You should be able to remove the block below when the following
