@@ -10,7 +10,6 @@ import styles from "./index.css"
 
 const ListaPaginas = (props, { collection }) =>{
   const listaPaginas = collection.filter(x=>x.linkName)
-    window.console.log(listaPaginas)
     return (
       <nav className={ styles.nav}>
         <div className={ styles.navPart1}>
