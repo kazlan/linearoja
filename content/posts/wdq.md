@@ -1,7 +1,7 @@
 ---
 title: wdq
 layout: post
-date: 03/22/2017
+date: '2017-03-22'
 ---
 
 ddd
