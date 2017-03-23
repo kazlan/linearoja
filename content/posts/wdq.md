@@ -1,6 +1,7 @@
 ---
 title: wdq
-date: 03/22/2017
+date: 2017-03-23
+layout: Post
 ---
 
 ddd
