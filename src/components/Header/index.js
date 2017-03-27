@@ -15,6 +15,7 @@ const ListaPaginas = (props, { collection }) =>{
         <div className={ styles.navPart1}>
           {listaPaginas.map(x=>(
             <Link className={ styles.link }
+              key={x.linkName}
               to={x.nav}>
               { x.linkName }
             </Link>
