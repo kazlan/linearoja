@@ -10,5 +10,5 @@ cta:
   props:
     big: true
 ---
-#### Nada puede con los nervios de nuestros agentes!
+Nada puede con los nervios de nuestros agentes!
 ![KeepCalm](/assets/keepcalm.jpg)
